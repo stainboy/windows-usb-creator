@@ -22,6 +22,7 @@
 - insert USB stick (e.g. F:)
 - start cmd.exe with administrative privilege
 - `F:\boot\bootsect.exe /nt60 F: /force /mbr`
+- `sudo lilo -M /dev/sdb mbr` (linux way)
 
 ## Burn windows installer ISO into a DVD disk
 - login a Windows machine (e.g. Windows 10)
