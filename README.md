@@ -23,6 +23,9 @@
 - start cmd.exe with administrative privilege
 - `F:\boot\bootsect.exe /nt60 F: /force /mbr`
 - `sudo lilo -M /dev/sdb mbr` (linux way)
+- `sudo grub2-install /dev/sdb`
+- `sudo install-mbr -i n -p D -t 0 /dev/sdb`
+- `sudo ms-sys --mbr7 /dev/sdb`
 
 ## Burn windows installer ISO into a DVD disk
 - login a Windows machine (e.g. Windows 10)
